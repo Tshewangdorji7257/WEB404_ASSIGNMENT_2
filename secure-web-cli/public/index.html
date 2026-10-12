@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Web CLI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="terminal">
+    <header>
+      <h1>Secure Web CLI</h1>
+      <p>Command injection protection demonstration</p>
+    </header>
+
+    <section>
+      <p>Supported commands: help, status, version</p>
+      <form id="command-form">
+        <label for="command">Enter command</label>
+        <div class="input-row">
+          <span>$</span>
+          <input id="command" type="text"
+                 placeholder="Type help" maxlength="100" required>
+          <button type="submit">Run</button>
+        </div>
+      </form>
+    </section>
+
+
+    <section>
+      <h2>Output</h2>
+      <pre id="output" role="status" aria-live="polite">Waiting for a command...</pre>
+    </section>
+
+    <footer>Secure Web CLI | Allowlisted commands only</footer>
+  </main>
+</body>
+</html>
