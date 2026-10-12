@@ -144,7 +144,7 @@ The user enters a command into the input field and submits it to the backend. Th
 
 **Evidence:**
 
-![Step 4 - Creating the web interface](ievidence/mage-4.png)
+![Step 4 - Creating the web interface](evidence/image-4.png)
 
 ### 4.6 Step 5: Design the Terminal Using CSS
 
@@ -170,7 +170,7 @@ The `textContent` property is used to display the response as text rather than i
 
 **Evidence:**
 
-![Step 6 - Connecting the frontend to the backend](ievidence/mage-6.png)
+![Step 6 - Connecting the frontend to the backend](evidence/image-6.png)
 
 ### 4.8 Step 7: Run the Application
 
